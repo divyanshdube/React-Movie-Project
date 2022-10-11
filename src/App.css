@@ -1,0 +1,37 @@
+body {
+  background: brown;
+  color: #fcf3f3;
+  font-family: cursive;
+}
+
+.movie-app > .row {
+  overflow-y: auto;
+  flex-wrap: nowrap;
+  
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  background: grey;
+  width: 89%;
+  transition: 0.9s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
