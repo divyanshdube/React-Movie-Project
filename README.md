@@ -24,3 +24,6 @@ As per the user search, data has been fetched from the API and given the unique 
 and when the user get visited again the same movies can be shown as that were added by the user into the favourite search bar.
 *********************************
 
+Also, when user reloads the page, favourite add movies will not be lost instead will be stored into the "localStorage" function, so when next time
+visited the same data can be fetched again from the stored array.
+****************
